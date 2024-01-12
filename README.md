@@ -1,3 +1,3 @@
-# proejctvvs2024.github.io
+# projectvvs2024.github.io
 
 Project page for VVS
