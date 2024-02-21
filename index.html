@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>VVS: Video-to-Video Retrieval with Irrelevant Frame Suppression</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -43,6 +43,25 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+  <script src="https://kit.fontawesome.com/c4359b78c9.js" crossorigin="anonymous"></script>
+
+  <style>
+    .custom_container {
+      text-align: center; /* 가운데 정렬 */
+    }
+    
+    .custom_image-wrapper {
+      display: inline-block; /* 이미지를 나란히 배치하기 위해 */
+      margin: 10px; /* 이미지 사이의 여백 */
+      width: 33.33%;
+    }
+    
+    .custom_image-wrapper img {
+      max-width: 100%; /* 이미지가 부모 요소에 맞게 크기 조정 */
+      height: auto; /* 이미지 비율 유지 */
+    }
+  </style>
+
 </head>
 <body>
 
@@ -52,28 +71,33 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">VVS: Video-to-Video Retrieval <br> with Irrelevant Frame Suppression</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://sites.google.com/view/won-jo" target="_blank">Won Jo</a><sup>1</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://sites.google.com/view/taekguen/" target="_blank">Geuntaek Lim</a><sup>1</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="https://y2sman.notion.site/y2sman/Lee-Gwang-Jin-1ce275485fa9447284d6ba6cc31e6987" target="_blank">Gwangjin Lee</a><sup>1</sup>,</span>
+                    <span class="author-block">
+                      <a href="https://sites.google.com/rcv.sejong.ac.kr/hyunwoo-kim?usp=sharing" target="_blank">Hyunwoo Kim</a><sup>1</sup>,</span>
+                      <span class="author-block">
+                        <a href="https://sites.google.com/view/byungsooko" target="_blank">Byunsoo Ko</a><sup>2</sup>,</span>
+                        <span class="author-block">
+                          <a href="https://www.rcv.sejong.ac.kr/members/professor" target="_blank">Yukyung Choi</a><sup>1</sup>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block"><sup>1</sup>Sejong University, <sup>2</sup>NAVER Vision<br>The 38th Annual AAAI Conference on Artificial Intelligence (AAAI-24)</span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://arxiv.org/abs/2303.08906" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -83,7 +107,7 @@
                     </span>
 
                     <!-- Supplementary PDF link -->
-                    <span class="link-block">
+                    <!-- <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -91,11 +115,11 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/sejong-rcv/VVS" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -106,14 +130,27 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="http://vvs-video.duckdns.org:12000/" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                    <i class="ai ai-arxiv"></i>
+                    <i class="fa-solid fa-star"></i>
                   </span>
-                  <span>arXiv</span>
+                  <span>Demo</span>
                 </a>
               </span>
+
+                <span class="link-block">
+                  <a href="https://drive.google.com/file/d/1fimB0NgH83Ma9mFEyPX--blEJpRT7YmR/view?usp=sharing" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fa-solid fa-clapperboard"></i>
+                  </span>
+                  <span>Slide</span>
+                </a>
+              </span>
+
+
+
             </div>
           </div>
         </div>
@@ -123,22 +160,6 @@
 </section>
 
 
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -147,8 +168,9 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
+          <img src="static/images/illustration_concept_1.png" alt="Concept Image" width="80%" style="margin-left: auto; margin-right: auto; display: block;"/ >
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            <br> In content-based video retrieval (CBVR), dealing with large-scale collections, efficiency is as important as accuracy; thus, several video-level feature-based studies have actively been conducted. Nevertheless, owing to the severe difficulty of embedding a lengthy and untrimmed video into a single feature, these studies have been insufficient for accurate retrieval compared to frame-level feature-based studies. In this paper, we show that appropriate suppression of irrelevant frames can provide insight into the current obstacles of the video-level approaches. Furthermore, we propose a Video-to-Video Suppression network (VVS) as a solution. VVS is an end-to-end framework that consists of an easy distractor elimination stage to identify which frames to remove and a suppression weight generation stage to determine the extent to suppress the remaining frames. This structure is intended to effectively describe an untrimmed video with varying content and meaningless information. Its efficacy is proved via extensive experiments, and we show that our approach is not only state-of-the-art in video-level approaches but also has a fast inference time despite possessing retrieval capabilities close to those of frame-level approaches.
           </p>
         </div>
       </div>
@@ -162,33 +184,34 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
+      <div class="columns is-centered has-text-centered"><h2 class="title is-3">Proposed Pipeline</h2></div>
+      <div id="results-carousel" class="carousel results-carousel" >
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/framework_overview_7.png" width="40%" alt="MY ALT TEXT" style="margin-left: auto; margin-right: auto; display: block;"/>
         <h2 class="subtitle has-text-centered">
-          First image description.
+          <strong>Pipeline Overview of VVS</strong>
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/illustration_DDM_8.png" width="40%" alt="MY ALT TEXT" style="margin-left: auto; margin-right: auto; display: block;"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          <strong>Pipeline of DDM</strong>
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/illustration_TSM_9.png" width="40%" alt="MY ALT TEXT" style="margin-left: auto; margin-right: auto; display: block;"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+          <strong>Pipeline of TSM</strong>
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <img src="static/images/illustration_TGM_9.png" width="40%" alt="MY ALT TEXT" style="margin-left: auto; margin-right: auto; display: block;"/>
       <h2 class="subtitle has-text-centered">
-        Fourth image description.
+        <strong>Pipeline of TGM</strong>
       </h2>
     </div>
   </div>
@@ -198,74 +221,34 @@
 <!-- End image carousel -->
 
 
-
-
 <!-- Youtube video -->
 <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
+    <div class="custom_container">
+    <h2 class="title is-3">Results</h2>
+    <div class="custom_image-wrapper">
+      <img src="static/images/illustration_acc_spd_7.png" alt="Italy" style="width:70%">
+      <h2 class="subtitle has-text-centered">
+        <strong>Speed-Accuracy Comparison</strong>
+      </h2>
+    </div>
+    <div class="custom_image-wrapper">
+      <img src="static/images/illustration_Weights_4.png" alt="Forest" style="width:70%">
+        <h2 class="subtitle has-text-centered">
+          <strong>Qualitative Results </strong>
+        </h2>
     </div>
   </div>
 </section>
 <!-- End youtube video -->
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
 
 <!-- Paper poster -->
 <section class="hero is-small is-light">
   <div class="hero-body">
-    <div class="container">
+    <div class="custom_container">
       <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+      <iframe  src="static/poster.pdf" width="50%" height="550">
           </iframe>
         
       </div>
@@ -278,7 +261,13 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>
+      @article{jo2023vvs,
+        title={VVS: Video-to-Video Retrieval with Irrelevant Frame Suppression},
+        author={Jo, Won and Lim, Geuntaek and Lee, Gwangjin and Kim, Hyunwoo and Ko, Byungsoo and Choi, Yukyung},
+        journal={arXiv preprint arXiv:2303.08906},
+        year={2023}
+      }</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
